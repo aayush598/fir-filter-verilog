@@ -13,10 +13,10 @@ module fir_filter (
     // coefficient ROM
     reg signed [15:0] coeff [0:7];
     initial begin
-        coeff[0] = 16'd1;  coeff[1] = 16'd2;
-        coeff[2] = 16'd3;  coeff[3] = 16'd4;
-        coeff[4] = 16'd5;  coeff[5] = 16'd6;
-        coeff[6] = 16'd7;  coeff[7] = 16'd8;
+        coeff[0] = 16'd36;  coeff[1] = 16'd196;
+        coeff[2] = 16'd672;  coeff[3] = 16'd1144;
+        coeff[4] = 16'd1144;  coeff[5] = 16'd672;
+        coeff[6] = 16'd196;  coeff[7] = 16'd36;
     end
 
     reg signed [31:0] acc;

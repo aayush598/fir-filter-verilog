@@ -1,1 +1,4 @@
 *.vvp
+venv
+*.txt
+*.vcd
